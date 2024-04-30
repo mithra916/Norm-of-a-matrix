@@ -17,6 +17,7 @@ Print the norm of the matrix in two decimal places.
 #find the 1-Norm of a matrix and display the results in two decimal places.
 #Developed by: LOGA MITHRA.R
 #Register number: 212223100027
+
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,1)
@@ -28,6 +29,7 @@ print(norm_of_matrix)
 #Program to find 2-norm of a matrix.
 #Developed by: LOGA MITHRA.R
 #RegisterNumber: 212223100027
+
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
@@ -39,6 +41,7 @@ print(norm_of_matrix)
 #program to find infinity norm of a matrix
 #Developed by: LOGA MITHRA.R
 #Register number: 212223100027
+
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,np.inf)
