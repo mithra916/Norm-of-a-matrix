@@ -12,9 +12,6 @@ Find the 2-norm of the matrix using np.linalg.norm()
 # Step 3:
 Print the norm of the matrix in two decimal places.
 ## Program:
-```Python
-# Register No: LOGA MITHRA.R
-# Developed By: 212223100027
 # 1-Norm of a Matrix
 ```
 #find the 1-Norm of a matrix and display the results in two decimal places.
@@ -47,7 +44,6 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,np.inf)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
-```
 ```
 ## Output:
 ### 1-Norm of a Matrix
